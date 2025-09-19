@@ -1,0 +1,5 @@
+body { font-family: Arial, sans-serif; margin:20px; }
+.center { text-align:center; margin-top:60px; }
+.buttons .btn { display:inline-block; margin:10px; padding:12px 20px; background:#333; color:#fff; text-decoration:none; border-radius:6px; }
+input { display:block; margin:6px 0; padding:8px; width:220px; }
+#orders-list .order { padding:10px; border:1px solid #ddd; margin:6px 0; border-radius:6px; }

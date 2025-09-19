@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Admin — Cheesy Orders</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="app">
+    <header><h2>Admin Panel</h2></header>
+
+    <section id="login-section">
+      <h3>Admin login</h3>
+      <input id="admin-username" placeholder="Username" value="Cheesyorder"/>
+      <input id="admin-password" type="password" placeholder="Password" value="Chessy$2023"/>
+      <button id="admin-login">Login</button>
+      <div id="login-result"></div>
+    </section>
+
+    <aside id="sidebar" style="display:none">
+      <h3>Controls</h3>
+      <button id="refresh-orders">Refresh orders</button>
+      <h4>Create order</h4>
+      <input id="create-username" placeholder="username (existing)"/>
+      <input id="create-item" placeholder="item name"/>
+      <input id="create-qty" type="number" value="1"/>
+      <button id="create-order">Create order</button>
+    </aside>
+
+    <section id="orders-section" style="display:none">
+      <h3>All orders</h3>
+      <div id="orders-list"></div>
+    </section>
+  </div>
+
+  <script type="module" src="js/admin.js"></script>
+</body>
+</html>
